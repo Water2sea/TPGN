@@ -8,7 +8,7 @@
 
 ## News
 
-Our paper, titled **PGN: The RNN's New Successor is Effective for Long-Range Time Series Forecasting**, has been accepted at **NeurIPS 2024**! The arvix version can be found at: [[PGN](https://openreview.net/forum?id=y08bkEtNBK)]. 
+Our paper, titled **PGN: The RNN's New Successor is Effective for Long-Range Time Series Forecasting**, has been accepted at **NeurIPS 2024**! The arvix version can be found at: [[PGN](https://arxiv.org/abs/2409.17703)]. 
 The updated version will be announced later.
 
 ## Get Start of TPGN
