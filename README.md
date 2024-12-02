@@ -1,4 +1,9 @@
-# TPGN
+# (NeurIPS 2024) PGN: The RNN's New Successor is Effective for Long-Range Time Series Forecasting
+
+🚩 Our paper, titled **PGN: The RNN's New Successor is Effective for Long-Range Time Series Forecasting**, has been accepted at **NeurIPS 2024**! The final version can be found at: [[PGN](https://openreview.net/forum?id=ypEamFKu2O)]. 
+
+
+## TPGN
 
 (1) We propose a novel general paradigm called PGN as the new successor to RNN. It reduces the information propagation path to $\mathcal{O}(1)$, enabling better capture of long-term dependencies in input signals and addressing the limitations of RNNs.
 
@@ -6,10 +11,7 @@
 
 (3) In terms of efficiency, PGN maintains the same complexity of $\mathcal{O}(L)$ as RNN. However, due to its parallelizable calculations, PGN achieves higher actual efficiency. On the other hand, TPGN, serving as a general temporal modeling framework, exhibits a favorable complexity of $\mathcal{O}(\sqrt{L})$.
 
-## News
 
-Our paper, titled **PGN: The RNN's New Successor is Effective for Long-Range Time Series Forecasting**, has been accepted at **NeurIPS 2024**! The arvix version can be found at: [[PGN](https://arxiv.org/abs/2409.17703)]. 
-The updated version will be announced later.
 
 ## Get Start of TPGN
 
@@ -19,4 +21,19 @@ The updated version will be announced later.
 
 ```bash
 python run.py
+```
+
+## Reference
+
+Thank you for your interest in our paper. The citation format is as follows:
+
+```
+@inproceedings{
+jia2024pgn,
+title={{PGN}: The {RNN}'s New Successor is Effective for Long-Range Time Series Forecasting},
+author={Yuxin Jia and Youfang Lin and Jing Yu and Shuo Wang and Tianhao Liu and Huaiyu Wan},
+booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
+year={2024},
+url={https://openreview.net/forum?id=ypEamFKu2O}
+}
 ```
