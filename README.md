@@ -2,8 +2,17 @@
 
 🚩 Our paper, titled **PGN: The RNN's New Successor is Effective for Long-Range Time Series Forecasting**, has been accepted at **NeurIPS 2024**! The final version can be found at: [[PGN](https://openreview.net/forum?id=ypEamFKu2O)]. 
 
+# Our Poster
 
-## TPGN
+![Poster](imgs/poster.png)
+
+## Related Work
+
+![Related_Work](imgs/Figure1.png)
+
+## PGN & TPGN
+
+![PGN](imgs/Figure2.png)
 
 (1) We propose a novel general paradigm called PGN as the new successor to RNN. It reduces the information propagation path to $\mathcal{O}(1)$, enabling better capture of long-term dependencies in input signals and addressing the limitations of RNNs.
 
