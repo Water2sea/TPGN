@@ -10,6 +10,8 @@
 
 ![Related_Work](imgs/Figure1.png)
 
+![Related_Work2](imgs/related_work.png)
+
 ## PGN & TPGN
 
 ![PGN](imgs/Figure2.png)
@@ -21,6 +23,51 @@
 (3) In terms of efficiency, PGN maintains the same complexity of $\mathcal{O}(L)$ as RNN. However, due to its parallelizable calculations, PGN achieves higher actual efficiency. On the other hand, TPGN, serving as a general temporal modeling framework, exhibits a favorable complexity of $\mathcal{O}(\sqrt{L})$.
 
 
+## PGN & RNN
+
+![PGN_RNN](imgs/PGN_RNN.png)
+
+## Experiments
+
+To fairly compare the performance of each model, we set up the search space so that each model can perform optimally on each task. 
+
+Here is the baseline we have chosen:
+
+(1) WITRAN (NeurIPS 2023)(**RNN-based**),
+
+(2) SegRNN (Arxiv)(**RNN-based**),
+
+(3) ModernTCN (ICLR 2024)(**CNN-Based**), 
+
+(4) TimesNet (ICLR 2023)(**CNN-Based**), 
+
+(5) MICN (ICLR 2023)(**CNN-Based**),
+
+(6) FITS (ICLR 2024)(**Linear-Based**), 
+
+(7) TimeMixer (ICLR 2024)(**MLP-Based**), 
+
+(8) DLinear (AAAI 2023)(**Linear-Based**), 
+
+(9) iTransformer (ICLR 2024)(**Transformer-Based**), 
+
+(10) PDF (ICLR 2024)(**Transformer-Based**), 
+
+(11) Basisformer (NeurIPS 2023)(**Transformer-Based**), 
+
+(12) PatchTST (ICLR 2023)(**Transformer-Based**), 
+
+(13) FiLM (NeurIPS 2022),
+
+(14) and earlier methods such as Vanilla-Transformer (NeurIPS 2017), Informer (AAAI 2021), Autoformer (NeurIPS 2021), Pyraformer (ICLR 2022), and FEDformer (ICML 2023) have been extensively surpassed by the methods we selected above. Hence, we did not include these earlier methods as baselines in our comparison.
+
+![Table1](imgs/Table1.png)
+
+We have presented the specific hyperparameters of our model for different tasks across all datasets in follow Table, facilitating the direct reproducibility of our experimental results.
+
+**It should be noted that differences in the experimental environment will interfere with the experimental results, so in practical situations, parameter search work should be conducted based on specific task requirements. The parameter details we disclose corresponding to the experimental results on our experimental platform.**
+
+![hyperparameters](imgs/hyperparameters.png)
 
 ## Get Start of TPGN
 
