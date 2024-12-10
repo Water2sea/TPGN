@@ -59,7 +59,7 @@ Here is the baseline we have chosen:
 
 (13) FiLM (NeurIPS 2022),
 
-(14) and earlier methods such as Vanilla-Transformer (NeurIPS 2017), Informer (AAAI 2021), Autoformer (NeurIPS 2021), Pyraformer (ICLR 2022), and FEDformer (ICML 2023) have been extensively surpassed by the methods we selected above. Hence, we did not include these earlier methods as baselines in our comparison.
+(14) and earlier methods such as Vanilla-Transformer (NeurIPS 2017), Informer (AAAI 2021), Autoformer (NeurIPS 2021), Pyraformer (ICLR 2022), and FEDformer (ICML 2022) have been extensively surpassed by the methods we selected above. Hence, we did not include these earlier methods as baselines in our comparison.
 
 ![Table1](imgs/Table1.png)
 
