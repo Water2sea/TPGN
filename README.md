@@ -83,13 +83,29 @@ python run.py
 
 Thank you for your interest in our paper. The citation format is as follows:
 
+**arXiv version:**
+
+```
+@article{jia2024pgn,
+  title={PGN: The RNN's New Successor is Effective for Long-Range Time Series Forecasting},
+  author={Jia, Yuxin and Lin, Youfang and Yu, Jing and Wang, Shuo and Liu, Tianhao and Wan, Huaiyu},
+  journal={arXiv preprint arXiv:2409.17703},
+  year={2024}
+}
+```
+
+**openreview version:**
+
 ```
 @inproceedings{
 jia2024pgn,
-title={{PGN}: The {RNN}'s New Successor is Effective for Long-Range Time Series Forecasting},
+title={PGN: The RNN's New Successor is Effective for Long-Range Time Series Forecasting},
 author={Yuxin Jia and Youfang Lin and Jing Yu and Shuo Wang and Tianhao Liu and Huaiyu Wan},
 booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
-year={2024},
-url={https://openreview.net/forum?id=ypEamFKu2O}
+year={2024}
 }
 ```
+
+
+
+
